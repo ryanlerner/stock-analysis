@@ -20,11 +20,11 @@ Below we can see the differences between the 2018 run times before and after ref
 
 It's likely that I was able to improve the run time in the refactored code by replacing the nested for loops with additional variables. The code I pasted below 
 
-For i = 0 To 11
+<> For i = 0 To 11
         tickerVolumes(i) = 0
         tickerStartingPrices(i) = 0
         tickerEndingPrices(i) = 0
-    Next i
+    Next i <>
 
 ## Summary: In a summary statement, address the following questions.
 
