@@ -12,7 +12,7 @@ Based on the data from the table with "All Stocks (2017)" data, it would appear 
 Compared to the data from 2017, the returns from 2018 do not show nearly as much success for these companies. While 11/12 of these stocks yielded positive returns in 2017, only 2/12 of these same companies had positive returns from the start to end of 2018. And even though a significantly higher volume of DQ stocks were traded in 2018 than 2017, this stock devalued the most at 62%. Across these two years, "ENPH" had a higher returns than any other stock. "ENPH" had the 3rd highest return in 2017 at 129%, and was also just one of two stocks to stay in the green in 2018. It also tripled its total daily volume in 2018 and still had an 82% increase in return. ![2018_stocks_table](Resources/2018_stocks_table.png)
 
 ### Execution Times
-When including a pop-up box that displays the run-time, we can see that the refactored code ran more than twice as fast as the original code. This difference was only about 0.5 seconds, which would likely not have been noticeable without this pop-up box. 
+When including a pop-up box that displays the run-time, we can see that the refactored code ran more than twice as fast as the original code. This difference was only about 0.6 seconds, which would likely not have been noticeable without this pop-up box. 
 
 Below we can see the differences between the 2017 run times before and after refactoring the code. 
 
@@ -22,13 +22,15 @@ Below we can see the differences between the 2018 run times before and after ref
 
 ![2018runtime](Resources/2018runtime.png) ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
-It's likely that I was able to improve the run time in the refactored code by replacing the nested for loops with additional variables. The code I pasted below 
+It's likely that I was able to improve the run time in the refactored code by replacing the 'nested for loops' with additional variables. The code I pasted below was essentially able to create and define new variables with a for loop rather than running a for loop within another for loop, yielding a faster response time.
 
-<> For i = 0 To 11
+```
+For i = 0 To 11
         tickerVolumes(i) = 0
         tickerStartingPrices(i) = 0
         tickerEndingPrices(i) = 0
-    Next i <>
+    Next i
+```
 
 ## Summary: In a summary statement, address the following questions.
 
