@@ -14,9 +14,11 @@ Compared to the data from 2017, the returns from 2018 do not show nearly as much
 ### Execution Times
 When including a pop-up box that displays the run-time, we can see that the refactored code ran more than twice as fast as the original code. This difference was only about 0.5 seconds, which would likely not have been noticeable without this pop-up box. 
 
-Below we can see the differences between the 2017 run times before and after refactoring the code. ![2017runtime](Resources/2017runtime.png) ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
+Below we can see the differences between the 2017 run times before and after refactoring the code. 
+![2017runtime](Resources/2017runtime.png) ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
 
 Below we can see the differences between the 2018 run times before and after refactoring the code. 
+![2018runtime](Resources/2018runtime.png) ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
 It's likely that I was able to improve the run time in the refactored code by replacing the nested for loops with additional variables. The code I pasted below 
 
