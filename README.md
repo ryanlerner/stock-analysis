@@ -32,8 +32,9 @@ For i = 0 To 11
     Next i
 ```
 
-## Summary: In a summary statement, address the following questions.
+## Summary
 
-### What are the advantages or disadvantages of refactoring code?
+### Advantages and Disadvantages of Refactoring Code
+Refactoring code can be beneficial in many ways. Not only can it help the program run faster, but it can also lead to easier debugging processes and maintainability in the future. One of the disadvantages would be that it might require more resources (time and money) to refactor a code that's already working. Coding can often be confusing, and while refactoring often beneficial results, the effort that is put into the refactoring process may not always match the benefits. 
 
 ### How do these pros and cons apply to refactoring the original VBA script?
